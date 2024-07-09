@@ -2,7 +2,7 @@
 
 # Athleticus 
 
-##Motive in design
+# Motive in design
 
 This is apart of my portfolio for later ventures.
 
