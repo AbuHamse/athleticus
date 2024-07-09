@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.program-img {
+    width: 100%;
+    overflow: hidden; /* This ensures the image stays within the container */
+    position: relative; 
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .program-img:hover {
+    transform: scale(1.1);
+  }
+  
