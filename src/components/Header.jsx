@@ -23,11 +23,11 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex px-6 items-center bg-slate-700 lg:px-6">
+      <header className="flex px-6 items-center bg-black-400 lg:px-6">
         <div className="logo-container flex items-center px-6 space-x-5">
           <NavLink to="/"><img className='w-12 h-12' src={logo} alt="LOGO" /></NavLink>
           <p
-            className="logo-font text-xl font-semibold"
+            className="logo-font text-xl font-semibold text-white"
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >

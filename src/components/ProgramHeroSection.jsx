@@ -1,9 +1,11 @@
 import React from 'react';
 import { Container, Grid, Typography, Button, CardMedia } from '@mui/material';
+import img from '../images/carousel1/art2.webp'
+import { NavLink } from 'react-router-dom';
 
 export default function ProgramHeroSection() {
   return (
-    <section style={{ backgroundColor: '#161618', color: '#fff' }} className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-black-500 text-white">
       <Container maxWidth="lg">
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
@@ -15,12 +17,22 @@ export default function ProgramHeroSection() {
                 Our comprehensive fitness program is designed to help you achieve your goals and unlock your full potential. Discover the benefits of our holistic approach to wellness.
               </Typography>
               <div className="mt-4">
-                <Button variant="contained" style={{ backgroundColor: '#212124', color: '#fff', marginRight: '8px' }}>
-                  Get Started
-                </Button>
-                <Button variant="outlined" style={{ borderColor: '#fff', color: '#fff' }}>
-                  Learn More
-                </Button>
+                <NavLink to='/contact' style={{ textDecoration: 'none' }}>
+                  <Button 
+                    variant="contained" 
+                    sx={{ 
+                      backgroundColor: '#212124', 
+                      color: '#fff', 
+                      marginRight: '8px', 
+                      '&:hover': {
+                        backgroundColor: '#fff',
+                        color: '#000',
+                      },
+                    }}
+                  >
+                    Get Started
+                  </Button>
+                </NavLink>
               </div>
             </div>
           </Grid>
@@ -29,7 +41,7 @@ export default function ProgramHeroSection() {
               component="img"
               alt="Fitness Program"
               height="400"
-              image="/placeholder.svg"
+              image={img}
               className="rounded-lg transition-transform duration-300 hover:scale-105"
             />
           </Grid>

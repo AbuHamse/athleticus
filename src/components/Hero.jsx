@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="text-white text-2xl mt-4">
           Transform your body and mind with Athleticus Calisthenics Program
         </p>
-        <button className="mt-8 inline-block bg-red-400 text-white text-lg font-semibold py-2 px-4 rounded hover:bg-red-500">
+        <button className="mt-8 inline-block bg-black-300 text-white text-lg font-semibold py-2 px-4 rounded hover:bg-white-300 hover:text-black-400">
           <NavLink to="/programs">Get Started</NavLink>
         </button>
       </div>

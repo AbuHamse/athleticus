@@ -14,13 +14,13 @@ const AboutSection = () => {
       <div className="absolute inset-0 bg-cover bg-center opacity-50"></div>
       <div className="relative flex flex-col md:flex-row max-w-3/4 mx-auto text-left bg-black bg-opacity-50 rounded-lg p-5">
         <div className="text-container md:w-1/2 p-5">
-          <h2 className="text-5xl font-bold text-white text-center">About Us</h2>
+          <h2 className="text-5xl font-bold text-white text-center">Who We Are</h2>
           <p className="mt-4 text-red-300 font-500 text-xl">
             At Athleticus Fitness, we believe in the transformative power of fitness for everyone. Our mission is to empower you to become your best self through a comprehensive range of innovative fitness programs,
             with a special emphasis on calisthenics. Whether you're just beginning your fitness journey or you're a seasoned athlete, we offer the tools, guidance, and support needed to help you achieve your goals.
            
           </p>
-          <button className="mt-8 inline-block bg-red-400 text-white text-lg font-semibold py-2 px-4 rounded hover:bg-red-500">
+          <button className="mt-8 inline-block bg-white-300 text-black-300 text-lg font-semibold py-2 px-4 rounded hover:bg-black-300 hover:text-white-300">
           <NavLink to="/about">Learn More</NavLink>
         </button>
         </div>

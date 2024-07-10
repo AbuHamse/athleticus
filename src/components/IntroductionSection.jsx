@@ -16,19 +16,13 @@ const IntroductionSection = () => {
         </div>
         <div className="grid gap-8">
           <TeamMember
-            name="Abdullah Khadar"
+            name="Zuhayb.D Khadar"
             role="Founder, Head Coach"
-            description="Abdullah has been practicing calisthenics for over a decade and has a passion for helping others achieve their fitness goals."
+            description="Zuhayb has been practicing calisthenics for over a decade and has a passion for helping others achieve their fitness goals."
             avatarSrc={userProfilePic}
             avatarFallback="AK"
           />
-          <TeamMember
-            name="Jane Appleseed"
-            role="Co-Founder, Community Manager"
-            description="Jane is a certified calisthenics coach and passionate about building a supportive community for ATHLETICUS members."
-            avatarSrc="/placeholder-user.jpg"
-            avatarFallback="JA"
-          />
+         
         </div>
       </div>
     </section>

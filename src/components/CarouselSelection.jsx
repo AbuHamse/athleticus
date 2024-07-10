@@ -45,7 +45,7 @@ const CarouselSection = () => {
             <h2 className="text-6xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Experience the Athleticus Way
             </h2>
-            <p className="max-w-[600px] font-semibold text-red-300 md:text-xl dark:text-gray-400">
+            <p className="max-w-[600px] font-semibold text-black-300 md:text-xl dark:text-gray-400">
               Discover our curated collection of stunning images that capture the essence of Athleticus Fitness.
             </p>
           </div>

@@ -21,17 +21,12 @@ const JoinCommunitySection = () => {
             fellow members to share your progress and inspire one another.
           </p>
           <div className="flex flex-col gap-2 min-[400px]:flex-row">
+          
             <Link
-              to="#"
-              className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+              to="/contact"
+              className="inline-flex h-10 items-center justify-center text-white rounded-md border border-input bg-black-300 px-8 text-sm font-medium shadow-sm transition-colors hover:bg-white-300 hover:text-black hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
             >
-              Join the Community
-            </Link>
-            <Link
-              to="#"
-              className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
-            >
-              Try a Class
+              Contact Us
             </Link>
           </div>
         </div>
