@@ -2,7 +2,12 @@
 
 # Athleticus 
 
+<<<<<<< HEAD
 # Motive in design
+=======
+#  This is a new merge that is happening for the Athleticus Website
+# I've added different features to it and removed unnesscary features
+>>>>>>> 69a6ce8 (Added new features and removed unnecessary features)
 
 This is apart of my portfolio for later ventures.
 
